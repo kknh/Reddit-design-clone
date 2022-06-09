@@ -122,10 +122,8 @@ const Navigation = () => {
 						<span>Sign Up or Log In</span>
 					</a>
 				</li>
-				<li>
-					<p className="nav__item nav__footer">
-						© {new Date().getFullYear()} Reddit, Inc. All rights reserved
-					</p>
+				<li className="nav__footer">
+					<p>© {new Date().getFullYear()} Reddit, Inc. All rights reserved</p>
 				</li>
 			</ul>
 		</nav>

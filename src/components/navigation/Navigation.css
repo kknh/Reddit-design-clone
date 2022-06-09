@@ -2,7 +2,7 @@
 	background-color: var(--clr-white);
 	border: 1px solid var(--clr-gray-050);
 	width: 237px;
-	height: 80vh;
+	height: 75vh;
 	display: none;
 	padding: 8px 0 8px 0;
 	overflow: auto;
@@ -35,7 +35,6 @@
 	line-height: 14px;
 	font-weight: 500;
 	font-size: var(--font-size-s);
-	font-family: inherit;
 	cursor: pointer;
 	background-color: var(--clr-white);
 }
@@ -44,13 +43,16 @@
 }
 
 .nav__list .nav__footer {
-	cursor: default;
-	font-weight: 400;
+	padding: 20px;
+	width: 100%;
+	background-color: var(--clr-white);
+	height: 40px;
+	line-height: 14px;
 	font-size: var(--font-size-xs);
-}
-
-.nav__footer {
-	margin-bottom: 20px;
+	font-weight: 500;
+	color: var(--clr-gray-600);
+	display: grid;
+	place-content: center;
 }
 
 .nav__list .nav__hr {
