@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+	--clr-primary-1: #ff4500;
+	--clr-primary-2: #0079d3;
+	--clr-primary-3: #dae0e6;
+	--clr-secondary-1: #ea0027;
+	--clr-secondary-2: #8be29b;
+	--clr-gray: #232429; /* Same */
+	--clr-gray-900: #393a3f; /* New */
+	--clr-gray-800: #55565b; /* Davi's Grey */
+	--clr-gray-700: #75767b; /* Moiety */
+	--clr-gray-600: #828388; /* Old Silver */
+	--clr-gray-500: #919297; /* Gray Blue */
+	--clr-gray-400: #adaeb3; /* Gravity */
+	--clr-gray-300: #c1c2c7; /* Seashell */
+	--clr-gray-200: #d3d4d9; /* Light Gray */
+	--clr-gray-100: #dedfe4; /* Light Diamond */
+	--clr-gray-050: #f3f4f9; /* White Smoke */
+	--clr-gray-025: #f9faff; /* White Smoke Light */
+	--clr-white: #fff;
+	--clr-black: #222;
+	--border-radius-card: 5px;
+	--border-radius-button: 20px;
+	--font-size-lg: 18px;
+	--font-size-md: 16px;
+	--font-size-s: 14px;
+	--font-size-xs: 12px;
+	--padding-button: 4px 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button,
+a {
+	cursor: pointer;
+	color: unset;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+ul,
+li,
+a {
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-color: var(--clr-primary-3);
+}
+
+.btn-primary {
+	border: none;
+	outline: none;
+	padding: var(--padding-button);
+	color: var(--clr-white);
+	background-color: var(--clr-primary-2);
+	border-radius: var(--border-radius-button);
+}
+
+.btn-primary:hover {
+	opacity: 0.9;
+}
+
+.btn-outline {
+	border: 1px solid var(--clr-primary-2);
+	outline: none;
+	padding: var(--padding-button);
+	color: var(--clr-primary-2);
+	background-color: var(--clr-white);
+	border-radius: var(--border-radius-button);
+}
+
+.btn-outline:hover {
+	background-color: var(--clr-gray-050);
+}
+
+.btn-gray {
+	border: none;
+	outline: none;
+	padding: var(--padding-button);
+	color: var(--clr-primary-2);
+	background-color: var(--clr-gray-300);
+	border-radius: var(--border-radius-button);
 }
