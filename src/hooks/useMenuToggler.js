@@ -5,7 +5,7 @@ const useMenuToggler = (btnId, menuId) => {
 	const [menuOpen, setMenuOpen] = useState(false)
 
 	useEffect(() => {
-		const toggleNav = (e) => {
+		const toggleMenu = (e) => {
 			const btnClicked = e.target.closest(btnId)
 			let menuAndBtnNotClicked = ''
 
@@ -23,8 +23,8 @@ const useMenuToggler = (btnId, menuId) => {
 			}
 		}
 
-		document.addEventListener('click', toggleNav)
-		return () => document.removeEventListener('click', toggleNav)
+		document.addEventListener('click', toggleMenu)
+		return () => document.removeEventListener('click', toggleMenu)
 	}, [btnId, menuId])
 
 	return [menuOpen]
