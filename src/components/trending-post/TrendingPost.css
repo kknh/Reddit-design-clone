@@ -1,12 +1,16 @@
 .trending__post {
 	max-width: 375px;
 	min-width: 208px;
-	height: 100%;
+	height: 186px;
 	overflow: hidden;
 	border-radius: var(--border-radius-card);
 	position: relative;
 	flex: 1;
 	display: none;
+}
+
+.trending__post > * {
+	z-index: 1;
 }
 
 .trending__post:first-child {
@@ -33,7 +37,7 @@
 	object-fit: cover;
 	height: 100%;
 	width: 100%;
-	z-index: -1;
+	z-index: 0;
 }
 
 .trending__post::before {

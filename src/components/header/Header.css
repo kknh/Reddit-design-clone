@@ -112,8 +112,6 @@
 
 .btn-login,
 .btn-signup {
-	font-size: var(--font-size-s);
-	font-weight: 700;
 	height: 32px;
 	width: 78px;
 	display: none;

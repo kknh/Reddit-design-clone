@@ -67,6 +67,8 @@ body {
 	color: var(--clr-white);
 	background-color: var(--clr-primary-2);
 	border-radius: var(--border-radius-button);
+	font-size: var(--font-size-s);
+	font-weight: 700;
 }
 
 .btn-primary:hover {
@@ -80,6 +82,8 @@ body {
 	color: var(--clr-primary-2);
 	background-color: var(--clr-white);
 	border-radius: var(--border-radius-button);
+	font-size: var(--font-size-s);
+	font-weight: 700;
 }
 
 .btn-outline:hover {
@@ -91,6 +95,8 @@ body {
 	outline: none;
 	padding: var(--padding-button);
 	color: var(--clr-primary-2);
-	background-color: var(--clr-gray-300);
+	background-color: var(--clr-gray-050);
 	border-radius: var(--border-radius-button);
+	font-size: var(--font-size-s);
+	font-weight: 700;
 }
