@@ -56,7 +56,7 @@ a {
 }
 
 body {
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'IBM Plex Sans', Arial, sans-serif;
 	background-color: var(--clr-primary-3);
 }
 

@@ -1,0 +1,22 @@
+.trending__container {
+	padding: 16px 24px 0 24px;
+	margin: 0 auto;
+	height: 186px;
+	min-width: 483px;
+	max-width: 1020px;
+}
+
+.trending__heading {
+	font-weight: 500;
+	font-size: var(--font-size-s);
+	color: #1a1a1a;
+	margin-bottom: 10px;
+}
+
+.trending__posts {
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 11px;
+}
