@@ -33,6 +33,36 @@ const data = {
 			image: './images/trending/trending_4.jpg',
 		},
 	],
+	posts: [
+		{
+			id: 1,
+			likes: '12.4k',
+			community_icon: './images/community_icons/community_icon_3.png',
+			community: 'r/facepalm',
+			posted_by: 'u/TheRookieGetsCookie',
+			posted_time: '7',
+			title: "He isn't very good at hints.",
+			category_icon: './images/category_icons/misc.png',
+			category: 'misc',
+			text: '',
+			image: './images/posts/post_1.jpg',
+			comments: '452',
+		},
+		{
+			id: 2,
+			likes: '6.1k',
+			community_icon: './images/community_icons/community_icon_2.png',
+			community: 'r/pokemon',
+			posted_by: 'u/snailscale77',
+			posted_time: '23',
+			title: 'What unpopular Pokémon opinion would make most fans angry?',
+			category_icon: '',
+			category: 'discussion',
+			text: 'I’ll start. I love exp share. Gen 6 probably has the best designed Pokémon on average. Gen 7 had my favorite cast of characters. I absolutely love the tepig line. Fennekin is my favorite first form starter. The Gen 2 starters final evolutions are bland and overrated. I can’t stand blaziken. Misty is the worst companion Ash has had, and I actually like the first Diamond and Pearl Pokémon opening (English).',
+			image: '',
+			comments: '4.4k',
+		},
+	],
 }
 
 export default data
