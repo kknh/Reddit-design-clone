@@ -9,7 +9,7 @@
 	align-items: center;
 	justify-content: center;
 	position: fixed;
-	width: 100%;
+	width: 100vw;
 	top: 0;
 	left: 0;
 	z-index: 1000;
@@ -44,7 +44,6 @@
 .searchbar {
 	background-color: var(--clr-gray-050);
 	height: 36px;
-	min-width: 226px;
 	max-width: 650px;
 	width: 100%;
 	border-radius: var(--border-radius-card);

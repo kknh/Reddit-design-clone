@@ -10,7 +10,6 @@
 .trending__wrapper {
 	margin: 0 auto;
 	height: 208px;
-	min-width: 483px;
 	max-width: 1020px;
 	padding: 0 16px;
 }
@@ -23,8 +22,15 @@
 
 .trending__posts {
 	height: 100%;
+	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
 	gap: 11px;
+}
+
+@media screen and (min-width: 480px) {
+	.trending__posts {
+		min-width: 375px;
+	}
 }
