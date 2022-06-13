@@ -8,20 +8,23 @@
 
 @media screen and (min-width: 640px) {
 	.popular__container {
-		padding: 20px 24px;
+		padding: 20px 15px;
 	}
+}
+
+@media screen and (min-width: 960px) {
 }
 
 .popular__wrapper {
 	margin: 0 auto;
 	width: 100%;
 }
-
+/* 
 @media screen and (min-width: 960px) {
 	.popular__wrapper {
 		width: 640px;
 	}
-}
+} */
 .popular__heading {
 	font-weight: 500;
 	font-size: var(--font-size-s);

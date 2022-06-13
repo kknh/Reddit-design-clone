@@ -39,10 +39,9 @@ const Post = ({
 						</span>
 						<button className="btn-primary post__head-join">Join</button>
 					</div>
-					{category ? (
-						<div className="post__title">
-							{title}
-							<span>A</span>
+					<div className="post__title">
+						<span>{title}</span>
+						{category ? (
 							<div className="post__title-category">
 								{category_icon ? (
 									<img src={category_icon} alt={`${category} category icon`} />
@@ -51,10 +50,10 @@ const Post = ({
 								)}
 								<span>{category}</span>
 							</div>
-						</div>
-					) : (
-						''
-					)}
+						) : (
+							''
+						)}
+					</div>
 					<div className="post__body">
 						{image ? (
 							<img

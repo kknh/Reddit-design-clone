@@ -95,8 +95,12 @@ body {
 	outline: none;
 	padding: var(--padding-button);
 	color: var(--clr-primary-2);
-	background-color: var(--clr-gray-050);
 	border-radius: var(--border-radius-button);
 	font-size: var(--font-size-s);
 	font-weight: 700;
+	background-color: var(--clr-gray-050);
+}
+
+.btn-gray:hover {
+	background-color: var(--clr-gray-100);
 }

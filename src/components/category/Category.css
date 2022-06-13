@@ -1,0 +1,28 @@
+.category__container {
+	width: 310px;
+	margin-right: 20px;
+	border-radius: var(--border-radius-card);
+	background-color: var(--clr-white);
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--clr-gray-300);
+}
+
+.category__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--clr-gray-100);
+	padding: 8px 12px;
+}
+
+.category__item > span {
+	color: var(--clr-black);
+	font-weight: 700;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.category__item > svg {
+	color: var(--clr-gray-400);
+}
